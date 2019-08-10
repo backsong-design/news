@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>반응형 포스터 워크샵</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+
+
+    <style>
+        /* {
+      transition: all .3s;
+    } */
+
+        body {
+            background-color: grey;
+        }
+
+
+        /* 이 줄 아래에 각자 스타일 추가하기. */
+
+
+
+        .box3txt {
+            font-size: 5vw;
+            font-family: 'Merriweather', serif;
+            line-height: 1.4;
+            font-weight: 900;
+
+        }
+
+        .box1txt {
+
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+            font-size: 8vw;
+            writing-mode: tb-rl;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 10px;
+            line-height: 1.2;
+        }
+
+
+
+        .box1txt2 {
+
+            display: none;
+        }
+
+        .box4txt2 {
+            display: none;
+        }
+
+
+
+
+        .box2txt {
+
+            font-size: 5vw;
+            font-family: 'Libre Caslon Text', serif;
+            font-weight: bold;
+            text-align: center;
+            line-height: 8vh;
+
+        }
+
+
+
+        .box4txt {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 2.4vw;
+            font-weight: 700;
+            text-align: left;
+            line-height: 1.4
+        }
+
+        .box1 {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60vw;
+            height: 70vh;
+            background-color: white;
+            border-left: 1.5px solid black;
+            border-bottom: 1px solid black;
+            border-top: 1.5px solid black;
+            border-right: 1px solid black;
+
+        }
+
+        .box2 {
+            position: absolute;
+            left: 60vw;
+            width: 40vw;
+            height: 10vh;
+            background-color: white;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            border-top: 1.5px solid black;
+            border-right: 1.5px solid black;
+            padding: 10px;
+
+
+
+        }
+
+        .box3 {
+
+            position: absolute;
+            left: 60vw;
+            top: 10vh;
+            width: 40vw;
+            height: 60vh;
+
+            background-color: white;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            border-right: 1.5px solid black;
+            padding: 3vw;
+
+
+
+        }
+
+        .box4 {
+
+            position: absolute;
+            left: 0;
+            top: 70vh;
+            width: 40vw;
+            height: 30vh;
+
+            background-color: white;
+            border-left: 1.5px solid black;
+            border-bottom: 1.5px solid black;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            padding: 3vw;
+
+
+
+
+        }
+
+        .box5 {
+            position: absolute;
+            left: 40vw;
+            top: 70vh;
+            width: 60vw;
+            height: 30vh;
+
+            background-color: white;
+            border-left: 1px solid black;
+            border-bottom: 1.5px solid black;
+            border-top: 1px solid black;
+            border-right: 1.5px solid black;
+
+
+
+
+        }
+
+
+
+        .news {
+
+            width: 25vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            Fill: blue;
+
+        }
+
+
+
+        @media (min-width: 800px) {
+
+
+
+            .box2txt {
+                font-size: 2vw;
+            }
+
+            .box3txt {
+
+                font-size: 2vw;
+
+            }
+
+
+
+            .box1txt2 {
+
+                display: block;
+                padding: 1vw;
+                font-weight: 700;
+                line-height: 1.8vw;
+
+
+            }
+
+            .box1txt {
+                display: none;
+            }
+
+            .box4txt2 {
+                display: block;
+                font-size: 4.6vw;
+                font-weight: 900;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                white-space: nowrap;
+
+
+
+
+            }
+
+            .box4txt {
+                display: none;
+            }
+
+
+
+
+            .box1 {
+
+                left: 0;
+                width: 70vw;
+                height: 60vh;
+            }
+
+
+            .box2 {
+                left: 70vw;
+                width: 30vw;
+                height: 15vh;
+
+            }
+
+            .box3 {
+                left: 70vw;
+                top: 15vh;
+                width: 30vw;
+                height: 45vh;
+                padding: 1vw;
+
+
+            }
+
+            .box4 {
+
+                left: 0;
+                top: 60vh;
+                width: 90vw;
+                height: 40vh;
+
+
+            }
+
+            .box5 {
+
+                left: 90vw;
+                top: 60vh;
+                width: 10vw;
+                height: 40vh;
+
+            }
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 이 줄 위에는 아무것도 추가하지 않기! -->
+    <div class="container">
+        <!-- 모든 html 요소는 container div 안에 넣는다. -->
+        <div class="box1">
+
+            <p class="box1txt">
+                조국 법무·<br>한상혁 방통위 발탁<br> 고강도 검찰·방송 개혁 예고</p>
+
+            <p class="box1txt2">문재인 대통령이 9일 조국 전 청와대 민정수석(54)을 법무부 장관에, 최기영 서울대 교수(64)를 과학기술정보통신부 장관에, 한상혁 민주언론시민연합 공동대표(58)를 방송통신위원장에 각각 내정하는 등 장관급 8명을 교체하는 중폭 개각을 단행했다.
+                내년 총선에 출마하는 정치인 출신 장관들을 상당수 교체한 이번 개각은 집권 중반기 내각 정비 차원에서 이뤄졌다. 법무부·방통위에 개혁적 인사를 배치해 고강도 검찰개혁·방송개혁을 예고했고, 경제 관련 부처에는 관료·전문가 출신을 발탁해 안정을 꾀했다는 평가가 나온다.내년 총선에 출마하는 정치인 출신 장관들을 상당수 교체한 이번 개각은 집권 중반기 내각 정비 차원에서 이뤄졌다. 법무부·방통위에 개혁적 인사를 배치해 고강도 검찰개혁·방송개혁을 예고했고, 경제 관련 부처에는 관료·전문가 출신을 발탁해 안정을 꾀했다는 평가가 나온다. </p>
+
+        </div>
+        <div class="box2">
+
+            <p class="box2txt">
+                19.08.09 FRI
+            </p>
+
+
+
+        </div>
+        <div class="box3">
+
+
+            <p class="box3txt">Hong Kong: US calls China a 'th-uggish regime' amid fresh protests</p>
+        </div>
+
+        <div class="box4">
+            <p class="box4txt">북아메리카대륙이 원산지인 라쿤(미국 너구리)의 서식가능한 지역이 기후변화 때문에 2050년에는 캐나다와 시베리아, 러시아 서부 및 중·러 접경지역, 몽골 등으로까지 확대될 것이란 보고서가 나왔다. 강한 적응력을 내세워 세계 각지에 ‘외래종’으로 침입하고 있는 라쿤으로 인한 생태계 피해가 더욱 심화될 것이라는 우려가 제기됐다.
+
+            </p>
+
+            <p class="box4txt2">전 지구로 ‘침입’하는 라쿤…“생태계에 치명적” </p>
+
+
+
+        </div>
+        <div class="box5">
+
+            <svg class="news" viewBox="0 0 138.05 138.05">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: none;
+                            stroke: blue;
+                            stroke-miterlimit: 10;
+
+                        }
+                    </style>
+                </defs>
+                <title>자산 2</title>
+                <g id="레이어_2" data-name="레이어 2">
+                    <g id="레이어_1-2" data-name="레이어 1">
+                        <ellipse class="cls-1" cx="69.02" cy="69.02" rx="48.47" ry="83.9" transform="translate(-28.59 69.02) rotate(-45)" />
+                        <circle cx="64.09" cy="124.4" r="7.51" />
+                        <path d="M32.23,8.86l6.43,6.43L34.72,36,47.05,23.68l6.49,6.49L31.26,52.45,24.77,46l3.89-20.58L16.42,37.62,9.95,31.14Z" />
+                        <path d="M58.1,34.73,76.56,53.18,71.8,57.94,60.25,46.39,56.7,49.93,67.42,60.65l-4.55,4.54L52.16,54.47l-4.39,4.39L59.65,70.75l-5,5L35.82,57Z" />
+                        <path d="M78.3,54.93l6.54,6.54L74.72,76.3l15.92-9,6.52,6.52-9,15.91L103,79.6l6.51,6.51-27.2,17.37-6.75-6.75L85.65,78.79,67.73,88.92,61,82.17Z" />
+                        <path d="M95.62,102.07l7,6.14a7.07,7.07,0,0,0-1.57,3.3,5.15,5.15,0,0,0,1.69,4.39,4.76,4.76,0,0,0,3,1.58,2.93,2.93,0,0,0,2.4-.81,2.89,2.89,0,0,0,.79-2.31q-.08-1.44-2.23-4.82-3.51-5.55-3.75-9.17a7.7,7.7,0,0,1,2.36-6.25,8.26,8.26,0,0,1,4.24-2.25,9.34,9.34,0,0,1,5.4.59,19.79,19.79,0,0,1,6.35,4.61q4.27,4.27,4.92,8.1t-2.39,7.72l-6.87-6.11a4.29,4.29,0,0,0-.5-6.25,3.9,3.9,0,0,0-2.32-1.3,2.21,2.21,0,0,0-1.85.63,1.76,1.76,0,0,0-.46,1.46,8,8,0,0,0,1.49,3.13,40.83,40.83,0,0,1,4.5,8.44,9.63,9.63,0,0,1,.37,5.31,8.86,8.86,0,0,1-2.41,4.19,10,10,0,0,1-5.14,2.77,10.5,10.5,0,0,1-6.06-.57,18.94,18.94,0,0,1-6.3-4.43q-5.69-5.69-5.69-10.06A12.22,12.22,0,0,1,95.62,102.07Z" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+
+    </div>
+    <!-- 이 줄 아래에는 아무것도 추가하지 않기! -->
+
+</body></html>
